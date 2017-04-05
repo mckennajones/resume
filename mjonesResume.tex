@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+\usepackage{multicol}
+\begin{document}
+
+\header{McKenna}{Jones}{} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+223 NW 15th St.
+Corvallis, OR 97330
+USA
+~
++1 (503) 307 5012
+~
+\href{mailto:mjones0014@gmail.com}{mjones0014@gmail.com}
+\href{https://github.com/mckennajones}{GitHub/mckennajones}
+\href{http://facebook.com/mckjns}{facebook/mckjns}
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	Objective
+%----------------------------------------------------------------------------------------
+
+\section{objective}
+Seeking a challenging internship position in the software development field 
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2013-2017}
+{Honors Bachelor {\normalfont of Science}}
+{Oregon State University}
+{\emph{Computer Science} \\ Computer Systems Option. ABET Accreditation \\
+Junior class standing\\3.31 Cumulative GPA -- 3.51 Engineering GPA}
+
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{relevant work experience}
+
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry 
+{2015--Now}
+{Center for Applied Systems and Software}
+{Oregon State University}
+{\emph{Student Test Engineer}\hfill \\
+Extensive testing and debugging of Hewlett \\Packard networking equipment 
+\begin{itemize}
+
+\item[]\hfill 
+\item Use of test plans and test suites
+\item Bug tracking 
+\item Manual and automated testing
+\item Hardware and Software Testing
+\end{itemize}} 
+
+%------------------------------------------------
+
+\entry
+{2015--Now}
+{Computer Science Department}
+{Oregon State University}
+{\emph{Teacher Assistant, CS 161}\\
+Worked closely with professor to make sure \\ the class of 100+ students runs smoothly
+\begin{itemize}
+\item[]
+\item Assisting students with assignments
+\item Teaching fundamental Computer Science\\ topics to students who may have never \\ had exposure to them 
+\item Grading of beginner C and C++ programming \\assignments
+\end{itemize}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Classes
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\begin{minipage}{0.4 \linewidth}
+\textbf{Proficient with}\\
+C \\ C++ \\ 
+\end{minipage}
+\begin{minipage}{0.4 \linewidth}
+\textbf{Experience with}\\
+Python\\ HTML \, \, CSS \\ PHP \, \, \, SQL
+\end{minipage}
+
+\section{Tools}
+\begin{minipage}{0.4 \linewidth}
+\textbf{Proficient with}\\
+Unix/Linux\\	  Windows 7+ \\ Atom  \, \, \, Vim \, \, \, Emacs
+\end{minipage}
+\begin{minipage}{0.4 \linewidth}
+\textbf{Experience with}\\
+Git/Github \\ Visual Studio \\ Android Studio  
+
+\end{minipage}
+
+\end{document}
