@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.6.27)  27 JUN 2019 17:05
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.6.27)  15 AUG 2019 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**newResume.tex
-(./newResume.tex
+**newResumeGeneral.tex
+(./newResumeGeneral.tex
 LaTeX2e <2018-12-01>
 (./hieudo-build.cls
 Document Class: hieudo-build 2016/07/26 CV class
@@ -601,8 +601,8 @@ atn;language=DFLT;mapping=tex-text;"
 LaTeX Info: Redefining \rmfamily on input line 33.
 LaTeX Font Info:    Font shape `TU/Niveau-Lig(0)/m/n' will be
 (Font)              scaled to size 10.89996pt on input line 33.
-) (./newResume.aux)
-\openout1 = `newResume.aux'.
+) (./newResumeGeneral.aux)
+\openout1 = `newResumeGeneral.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -677,11 +677,12 @@ LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
 
-(./newResume.out) (./newResume.out)
+(./newResumeGeneral.out) (./newResumeGeneral.out)
 \@outlinefile=\write3
-\openout3 = `newResume.out'.
+\openout3 = `newResumeGeneral.out'.
 
- ABD: EveryShipout initializing macros
+
+ABD: EveryShipout initializing macros
 isodate: babel.sty has been loaded
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -773,6 +774,9 @@ uage=DFLT;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
+Package hyperref Warning: Suppressing link with empty target on input line 23.
+
+
 LaTeX Font Warning: Font shape `TU/Niveau-Lig(0)/m/sc' undefined
 (Font)              using `TU/Niveau-Lig(0)/m/n' instead on input line 35.
 
@@ -826,36 +830,36 @@ LaTeX Font Info:    Font shape `TU/Niveau-Lig(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/Niveau-Lig(0)/m/sc' will be
 (Font)              scaled to size 11.98996pt on input line 47.
 LaTeX Font Info:    Font shape `TU/Niveau-Lig(0)/m/n' will be
-(Font)              scaled to size 13.07996pt on input line 133.
+(Font)              scaled to size 13.07996pt on input line 132.
 
 LaTeX Font Warning: Font shape `TU/Niveau-Reg(0)/bx/n' undefined
-(Font)              using `TU/Niveau-Reg(0)/m/n' instead on input line 133.
+(Font)              using `TU/Niveau-Reg(0)/m/n' instead on input line 132.
 
 LaTeX Font Info:    Font shape `TU/Niveau-Lig(0)/m/sc' will be
-(Font)              scaled to size 13.07996pt on input line 134.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+(Font)              scaled to size 13.07996pt on input line 133.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
- (./newResume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
-Package rerunfilecheck Info: File `newResume.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+ (./newResumeGeneral.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
+Package rerunfilecheck Info: File `newResumeGeneral.out' has not changed.
 (rerunfilecheck)             Checksum: 55AB9B1E0E949A03C3F3E424456B7717.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
  28965 strings out of 492912
- 536967 string characters out of 6134893
- 635509 words of memory out of 5000000
+ 537058 string characters out of 6134893
+ 635601 words of memory out of 5000000
  32795 multiletter control sequences out of 15000+600000
  533018 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 48i,5n,86p,928b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,5n,86p,935b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on newResume.pdf (1 page).
+Output written on newResumeGeneral.pdf (1 page).
