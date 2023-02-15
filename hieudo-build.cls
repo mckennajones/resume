@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.5cm, vmargin=1.5cm]{geometry}
+\usepackage[hmargin=1.0cm, vmargin=1.0cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
@@ -17,13 +17,14 @@
 \usepackage[UKenglish]{babel}
 \usepackage[UKenglish]{isodate}
 \usepackage{fontspec,xltxtra,xunicode}
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \pagenumbering{gobble}
 \usepackage{datetime2}
 
 % Color definitions
 \definecolor{date}{HTML}{000000} 
 \definecolor{primary}{HTML}{000000}
+\definecolor{secondary}{HTML}{777777}
 \definecolor{headings}{HTML}{0E0E0F}
 \definecolor{subheadings}{HTML}{1A1C1E}
 
@@ -34,15 +35,17 @@
 {\color{subheadings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-ExtraLight}\selectfont #1 \normalfont}
 \linespread{1.1}
 
+\defaultfontfeatures{Path = /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/fontawesome/}
+
 % Date format
 \DTMnewdatestyle{mylastupdate}{%
-  \renewcommand*{\DTMdisplaydate}[4]{\DTMtwodigits{##2}.\DTMtwodigits{##3}.##1}\color{date}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-ExtraLight}\fontsize{10pt}{10pt}\selectfont%
+  \renewcommand*{\DTMdisplaydate}[4]{##1-\DTMtwodigits{##2}-\DTMtwodigits{##3}}\color{date}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-ExtraLight}\fontsize{10pt}{10pt}\selectfont%
   \renewcommand*{\DTMDisplaydate}{\DTMdisplaydate}%
 }
 
 % Name command
 \newcommand{\namesection}[2]{
-	\hspace{-1.7em}\raggedright{\parbox[b]{30em}{\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Bol}\fontsize{48pt}{0cm}\selectfont #1}}
+	\hspace{-1.7em}\raggedright{\parbox[b]{30em}{\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Bol}\fontsize{46pt}{0cm}\selectfont #1}}
     \hfill
     \raggedleft{\parbox[b]{15em}{\color{headings}\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Lig}\fontsize{11pt}{14pt}\selectfont #2}}
    	\vspace{2.2em} 
@@ -85,6 +88,10 @@
 
 % Location command
 \newcommand{\location}[1]{\color{primary}\raggedright\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Reg}\fontsize{11pt}{12pt}\selectfont {#1\\} \normalfont}
+\titlespacing{\section}{0pt}{0pt}{3pt}
+
+% Sublocation command
+\newcommand{\sublocation}[1]{\color{subheadings}\raggedright\fontspec[Path = fonts/NiveauGrotesk/]{Niveau-Reg}\fontsize{11pt}{12pt}\selectfont {#1\\} \normalfont}
 \titlespacing{\section}{0pt}{0pt}{3pt}
 
 % Section seperators command

@@ -10,32 +10,37 @@ Software Engineer in Denver, CO
   <a href="mailto:hello@mckennajones.com"><i class="fab fa-mail"></i> hello@mckennajones.com</a>
 </div>
 
-## Education
-
-`2013-2017`
-**BS in Computer Science** *Oregon State University*, Corvallis, OR
-
 ## Experience
 
 `2021-Present`
 **Cloud Engineer, MediaKind** - Denver, CO
-
-- stuff
+- 
 
 `2019-2021`
 **Solutions Engineer, Bitmovin** - Denver, CO
 
-- stuff
+- A member of the customer facing Solutions team
+- Worked closely with existing customers to assist in usage of Player and Encoding APIs
+- Contributed to Typescript player libraries
 
 `2017-2019`
 **Software Engineer, SKIDATA AG** - Portland, OR
 
-- stuff
+- Backend web development for a Customer Loyalty platform
+- Helped transition a monolithic .NET application to microservices
+- Managed deployments to AWS infrastructure
 
 `Summer 2016`
 **Iovation Inc.** - Portland, OR
 
-- Things
+- Summer internship focused on automation
+- Developed an application to automate the process of creating a QA testing environment
+
+
+## Education
+
+`2013-2017`
+**BS in Computer Science** *Oregon State University*, Corvallis, OR
 
 ## Skills
 
